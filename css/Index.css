@@ -1,0 +1,25 @@
+.canvas-container {
+    width: 1200px;
+    height: 1200px;
+    float: left;
+}
+
+.stats-container {
+    float: left;
+    width: 300px;
+    padding-left: 15px;
+}
+
+.stats-container table {
+    border-collapse: collapse;
+}
+
+.stats-container table tr td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.stats-container table tr td:last-child {
+    text-align: right;
+}
